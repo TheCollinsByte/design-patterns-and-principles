@@ -24,7 +24,8 @@
 
 ## Description
 
-LeetCodeJ is an open-source project where I solve LeetCode challenges using Java. The aim is to provide efficient and well-documented solutions to a variety of coding problems.
+Welcome to the <b>Design Patterns Repository!</b> This repository serves as a comprehensive collection of widely used design patterns, aimed at demonstrating best practices in software architecture. It provides a practical guide to understanding and applying design patterns to solve common problems in software development.
+Design patterns are proven solutions to recurring problems in software design, offering a standardized approach to building flexible, reusable, and maintainable systems. This repository showcases various design patterns, each with detailed explanations and example implementations, making it easier to grasp when and how to use them effectively.
 
 - [Installation](#installation)
 - [Design Patterns](#design-patterns)
