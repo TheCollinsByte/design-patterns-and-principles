@@ -1,4 +1,4 @@
-rootProject.name = 'sys-pattern'
+rootProject.name = 'design-patterns'
 
 include('creational')
 include('structural')
