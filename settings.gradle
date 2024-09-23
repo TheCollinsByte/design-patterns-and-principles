@@ -1,0 +1,6 @@
+rootProject.name = 'sys-pattern'
+
+include('creational')
+include('structural')
+include('behavioral')
+include('concurrency')
