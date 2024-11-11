@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><a href="https://github.com/TheCollinsByte/design-patterns">Design Patterns</a></h1>
+<h1><a href="https://github.com/TheCollinsByte/design-patterns">Design Patterns and Principles</a></h1>
 
 <a href="https://github.com/TheCollinsByte/design-patterns/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/TheCollinsByte/design-patterns?style=flat&color=eee&label="> </a>
