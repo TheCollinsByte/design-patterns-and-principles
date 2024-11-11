@@ -43,11 +43,11 @@ Instructions on how to set up the project on a local machine:
 
 1. Clone the repository:
     ```bash
-    git clone git@github.com:TheCollinsByte/design-patterns.git
+    git clone git@github.com:TheCollinsByte/design-patterns-and-principles.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd design-patterns
+    cd design-patterns-and-principles
     ```
 3. Ensure you have JDK version 21 installed. You can download it [here](https://www.oracle.com/java/technologies/downloads/#java21).
 
