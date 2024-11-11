@@ -1,4 +1,4 @@
-package com.thecollinsbyte.solid;
+package com.thecollinsbyte.solid.singlerepository;
 
 import java.util.HashMap;
 import java.util.Map;

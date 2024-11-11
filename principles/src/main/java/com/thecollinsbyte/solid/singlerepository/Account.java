@@ -1,4 +1,4 @@
-package com.thecollinsbyte.solid;
+package com.thecollinsbyte.solid.singlerepository;
 
 import java.math.BigDecimal;
 
@@ -6,6 +6,9 @@ public class Account {
     private int accountNumber;
     private String firstName;
     private BigDecimal totalAmount;
+
+    public Account() {
+    }
 
     public int getAccountNumber() {
         return accountNumber;
