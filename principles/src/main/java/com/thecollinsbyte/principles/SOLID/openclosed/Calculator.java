@@ -13,7 +13,7 @@ public class Calculator {
     public double calculate(double number1, double number2, Operator operator) {
         Operation operation = operations.get(operator);
         if (operation == null) {
-            throw new IllegalArgumentException("Operation not supported: " + operator);
+            throw new UnsupportedOperationException("Operation not supported: ");
         }
         return operation.calculate(number1, number2);
     }

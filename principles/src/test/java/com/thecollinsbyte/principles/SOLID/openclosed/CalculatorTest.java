@@ -19,26 +19,42 @@ class CalculatorTest {
     }
 
     @Test
-    void addOperation() {
+    void testAddition() {
         double result = calculator.calculate(10, 10, Operator.ADD);
-        assertEquals(20, result);
+        assertEquals(20, result, "");
     }
 
     @Test
-    void subtractOperation() {
+    void testSubtraction() {
         double result = calculator.calculate(10, 10, Operator.SUBTRACT);
         assertEquals(0, result);
     }
 
     @Test
-    void multiplyOperation() {
+    void testMultiplication() {
         double result = calculator.calculate(10, 10, Operator.MULTIPLY);
         assertEquals(100, result);
     }
 
     @Test
-    void divideOperation() {
+    void testDivision() {
         double result = calculator.calculate(10, 10, Operator.DIVIDE);
         assertEquals(1, result);
+    }
+
+    @Test
+    void testDivisionByZero() {
+        Exception exception = assertThrows(ArithmeticException.class, () -> {
+            calculator.calculate(6, 0, Operator.DIVIDE);
+        });
+        assertEquals("Division by zero", exception.getMessage());
+    }
+
+    @Test
+    void testUnsupportedOperation() {
+        Exception exception = assertThrows(UnsupportedOperationException.class, () -> {
+            calculator.calculate(5, 3, null);
+        });
+        assertEquals("Operation not supported: ", exception.getMessage());
     }
 }
