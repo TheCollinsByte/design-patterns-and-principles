@@ -1,5 +1,8 @@
 package com.thecollinsbyte.solid;
 
+import com.thecollinsbyte.solid.singlerepository.Account;
+import com.thecollinsbyte.solid.singlerepository.AccountOperations;
+
 import java.math.BigDecimal;
 
 public class TransactionOperations {
