@@ -29,4 +29,16 @@ class CalculatorTest {
         double result = calculator.calculate(10, 10, Operator.SUBTRACT);
         assertEquals(0, result);
     }
+
+    @Test
+    void multiplyOperation() {
+        double result = calculator.calculate(10, 10, Operator.MULTIPLY);
+        assertEquals(100, result);
+    }
+
+    @Test
+    void divideOperation() {
+        double result = calculator.calculate(10, 10, Operator.DIVIDE);
+        assertEquals(1, result);
+    }
 }
