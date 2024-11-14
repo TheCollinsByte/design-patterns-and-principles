@@ -1,4 +1,4 @@
-package com.thecollinsbyte.solid.singlerepository;
+package com.thecollinsbyte.principles.solid.singlerepository;
 
 import org.junit.jupiter.api.Test;
 
