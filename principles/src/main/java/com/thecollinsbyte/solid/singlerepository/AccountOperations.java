@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class AccountOperations {
 
-    private static final Map<Integer, Account> accountMap = new HashMap<>();
+    private final Map<Integer, Account> accountMap = new HashMap<>();
 
     public void addAccount(Account account) {
         accountMap.put(account.getAccountNumber(), account);
