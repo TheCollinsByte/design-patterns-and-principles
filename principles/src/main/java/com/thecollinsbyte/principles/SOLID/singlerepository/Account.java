@@ -1,4 +1,4 @@
-package com.thecollinsbyte.principles.solid.singlerepository;
+package com.thecollinsbyte.principles.SOLID.singlerepository;
 
 import java.math.BigDecimal;
 
