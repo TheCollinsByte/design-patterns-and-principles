@@ -1,9 +1,9 @@
 package com.thecollinsbyte.principles.SOLID.openclosed;
 
-public class SubtractOperation implements Operation {
+public class Multiplication implements Operation {
 
     @Override
     public double calculate(double num1, double num2) {
-        return num1 - num2;
+        return num1 * num2;
     }
 }

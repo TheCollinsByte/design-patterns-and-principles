@@ -12,10 +12,10 @@ class CalculatorTest {
     @BeforeEach
     void setUp() {
         calculator = new Calculator();
-        calculator.addOperation(Operator.ADD, new AddOperation());
-        calculator.addOperation(Operator.SUBTRACT, new SubtractOperation());
-        calculator.addOperation(Operator.MULTIPLY, new MultiplicationOperation());
-        calculator.addOperation(Operator.DIVIDE, new DivisionOperation());
+        calculator.addOperation(Operator.ADD, new Addition());
+        calculator.addOperation(Operator.SUBTRACT, new Subtraction());
+        calculator.addOperation(Operator.MULTIPLY, new Multiplication());
+        calculator.addOperation(Operator.DIVIDE, new Division());
     }
 
     @Test
