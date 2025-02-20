@@ -14,17 +14,15 @@ class VehicleTest {
         vehicle = new Vehicle();
     }
 
-    /*
     @Test
     void move() {
         String output = vehicle.move();
-        assertEquals("Moving....", output.toLowerCase());
+        assertEquals("Moving....", output);
     }
 
     @Test
     void stop() {
-        String output = vehicle.move();
-        assertEquals("Stopped....", output.toLowerCase());
+        String output = vehicle.stop();
+        assertEquals("Stopped....", output);
     }
-    */
 }
